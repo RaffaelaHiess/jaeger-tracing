@@ -12,6 +12,13 @@ import io.jaegertracing.Configuration.SamplerConfiguration;
 import io.jaegertracing.internal.samplers.ConstSampler;
 import io.opentracing.Tracer;
 
+
+/**
+ * This is the entry point for the JaegerTracing test application.
+ * 
+ * @author ela
+ *
+ */
 @SpringBootApplication
 public class JaegerTracingApplication {
 
